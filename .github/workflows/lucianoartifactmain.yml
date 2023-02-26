@@ -1,0 +1,9 @@
+ - name: 'Upload a buid Artifact'
+   uses: actions/upload-artifact@v3.1.2
+   with:
+     name: luciano-artifact
+     path: luciano_file.txt
+ retention-days: 5
+ #23_02_26 16:44
+      
+      
